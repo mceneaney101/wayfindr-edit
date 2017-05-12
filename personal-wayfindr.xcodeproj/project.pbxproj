@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C49D06A31EC5A96A00CB3F39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A21EC5A96A00CB3F39 /* main.m */; };
+		C49D06A61EC5A96A00CB3F39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A51EC5A96A00CB3F39 /* AppDelegate.m */; };
+		C49D06A91EC5A96A00CB3F39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A81EC5A96A00CB3F39 /* ViewController.m */; };
+		C49D06AC1EC5A96A00CB3F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49D06AA1EC5A96A00CB3F39 /* Main.storyboard */; };
+		C49D06AE1EC5A96A00CB3F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49D06AD1EC5A96A00CB3F39 /* Assets.xcassets */; };
+		C49D06B11EC5A96A00CB3F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49D06AF1EC5A96A00CB3F39 /* LaunchScreen.storyboard */; };
+		C49D06BC1EC5A96B00CB3F39 /* personal_wayfindrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06BB1EC5A96B00CB3F39 /* personal_wayfindrTests.m */; };
+		C49D06C71EC5A96B00CB3F39 /* personal_wayfindrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06C61EC5A96B00CB3F39 /* personal_wayfindrUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C49D06B81EC5A96B00CB3F39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49D06961EC5A96A00CB3F39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49D069D1EC5A96A00CB3F39;
+			remoteInfo = "personal-wayfindr";
+		};
+		C49D06C31EC5A96B00CB3F39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49D06961EC5A96A00CB3F39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49D069D1EC5A96A00CB3F39;
+			remoteInfo = "personal-wayfindr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C49D069E1EC5A96A00CB3F39 /* personal-wayfindr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "personal-wayfindr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D06A21EC5A96A00CB3F39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C49D06A41EC5A96A00CB3F39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C49D06A51EC5A96A00CB3F39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C49D06A71EC5A96A00CB3F39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C49D06A81EC5A96A00CB3F39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C49D06AB1EC5A96A00CB3F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49D06AD1EC5A96A00CB3F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49D06B01EC5A96A00CB3F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C49D06B21EC5A96A00CB3F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49D06B71EC5A96B00CB3F39 /* personal-wayfindrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "personal-wayfindrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D06BB1EC5A96B00CB3F39 /* personal_wayfindrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = personal_wayfindrTests.m; sourceTree = "<group>"; };
+		C49D06BD1EC5A96B00CB3F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49D06C21EC5A96B00CB3F39 /* personal-wayfindrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "personal-wayfindrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D06C61EC5A96B00CB3F39 /* personal_wayfindrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = personal_wayfindrUITests.m; sourceTree = "<group>"; };
+		C49D06C81EC5A96B00CB3F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49D069B1EC5A96A00CB3F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D06B41EC5A96B00CB3F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D06BF1EC5A96B00CB3F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C49D06951EC5A96A00CB3F39 = {
+			isa = PBXGroup;
+			children = (
+				C49D06A01EC5A96A00CB3F39 /* personal-wayfindr */,
+				C49D06BA1EC5A96B00CB3F39 /* personal-wayfindrTests */,
+				C49D06C51EC5A96B00CB3F39 /* personal-wayfindrUITests */,
+				C49D069F1EC5A96A00CB3F39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C49D069F1EC5A96A00CB3F39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49D069E1EC5A96A00CB3F39 /* personal-wayfindr.app */,
+				C49D06B71EC5A96B00CB3F39 /* personal-wayfindrTests.xctest */,
+				C49D06C21EC5A96B00CB3F39 /* personal-wayfindrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49D06A01EC5A96A00CB3F39 /* personal-wayfindr */ = {
+			isa = PBXGroup;
+			children = (
+				C49D06A41EC5A96A00CB3F39 /* AppDelegate.h */,
+				C49D06A51EC5A96A00CB3F39 /* AppDelegate.m */,
+				C49D06A71EC5A96A00CB3F39 /* ViewController.h */,
+				C49D06A81EC5A96A00CB3F39 /* ViewController.m */,
+				C49D06AA1EC5A96A00CB3F39 /* Main.storyboard */,
+				C49D06AD1EC5A96A00CB3F39 /* Assets.xcassets */,
+				C49D06AF1EC5A96A00CB3F39 /* LaunchScreen.storyboard */,
+				C49D06B21EC5A96A00CB3F39 /* Info.plist */,
+				C49D06A11EC5A96A00CB3F39 /* Supporting Files */,
+			);
+			path = "personal-wayfindr";
+			sourceTree = "<group>";
+		};
+		C49D06A11EC5A96A00CB3F39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49D06A21EC5A96A00CB3F39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C49D06BA1EC5A96B00CB3F39 /* personal-wayfindrTests */ = {
+			isa = PBXGroup;
+			children = (
+				C49D06BB1EC5A96B00CB3F39 /* personal_wayfindrTests.m */,
+				C49D06BD1EC5A96B00CB3F39 /* Info.plist */,
+			);
+			path = "personal-wayfindrTests";
+			sourceTree = "<group>";
+		};
+		C49D06C51EC5A96B00CB3F39 /* personal-wayfindrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C49D06C61EC5A96B00CB3F39 /* personal_wayfindrUITests.m */,
+				C49D06C81EC5A96B00CB3F39 /* Info.plist */,
+			);
+			path = "personal-wayfindrUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49D069D1EC5A96A00CB3F39 /* personal-wayfindr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D06CB1EC5A96B00CB3F39 /* Build configuration list for PBXNativeTarget "personal-wayfindr" */;
+			buildPhases = (
+				C49D069A1EC5A96A00CB3F39 /* Sources */,
+				C49D069B1EC5A96A00CB3F39 /* Frameworks */,
+				C49D069C1EC5A96A00CB3F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "personal-wayfindr";
+			productName = "personal-wayfindr";
+			productReference = C49D069E1EC5A96A00CB3F39 /* personal-wayfindr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C49D06B61EC5A96B00CB3F39 /* personal-wayfindrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D06CE1EC5A96B00CB3F39 /* Build configuration list for PBXNativeTarget "personal-wayfindrTests" */;
+			buildPhases = (
+				C49D06B31EC5A96B00CB3F39 /* Sources */,
+				C49D06B41EC5A96B00CB3F39 /* Frameworks */,
+				C49D06B51EC5A96B00CB3F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49D06B91EC5A96B00CB3F39 /* PBXTargetDependency */,
+			);
+			name = "personal-wayfindrTests";
+			productName = "personal-wayfindrTests";
+			productReference = C49D06B71EC5A96B00CB3F39 /* personal-wayfindrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C49D06C11EC5A96B00CB3F39 /* personal-wayfindrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D06D11EC5A96B00CB3F39 /* Build configuration list for PBXNativeTarget "personal-wayfindrUITests" */;
+			buildPhases = (
+				C49D06BE1EC5A96B00CB3F39 /* Sources */,
+				C49D06BF1EC5A96B00CB3F39 /* Frameworks */,
+				C49D06C01EC5A96B00CB3F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49D06C41EC5A96B00CB3F39 /* PBXTargetDependency */,
+			);
+			name = "personal-wayfindrUITests";
+			productName = "personal-wayfindrUITests";
+			productReference = C49D06C21EC5A96B00CB3F39 /* personal-wayfindrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49D06961EC5A96A00CB3F39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Paul McEneaney";
+				TargetAttributes = {
+					C49D069D1EC5A96A00CB3F39 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					C49D06B61EC5A96B00CB3F39 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C49D069D1EC5A96A00CB3F39;
+					};
+					C49D06C11EC5A96B00CB3F39 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C49D069D1EC5A96A00CB3F39;
+					};
+				};
+			};
+			buildConfigurationList = C49D06991EC5A96A00CB3F39 /* Build configuration list for PBXProject "personal-wayfindr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C49D06951EC5A96A00CB3F39;
+			productRefGroup = C49D069F1EC5A96A00CB3F39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49D069D1EC5A96A00CB3F39 /* personal-wayfindr */,
+				C49D06B61EC5A96B00CB3F39 /* personal-wayfindrTests */,
+				C49D06C11EC5A96B00CB3F39 /* personal-wayfindrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49D069C1EC5A96A00CB3F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D06B11EC5A96A00CB3F39 /* LaunchScreen.storyboard in Resources */,
+				C49D06AE1EC5A96A00CB3F39 /* Assets.xcassets in Resources */,
+				C49D06AC1EC5A96A00CB3F39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D06B51EC5A96B00CB3F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D06C01EC5A96B00CB3F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49D069A1EC5A96A00CB3F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D06A91EC5A96A00CB3F39 /* ViewController.m in Sources */,
+				C49D06A61EC5A96A00CB3F39 /* AppDelegate.m in Sources */,
+				C49D06A31EC5A96A00CB3F39 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D06B31EC5A96B00CB3F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D06BC1EC5A96B00CB3F39 /* personal_wayfindrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D06BE1EC5A96B00CB3F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D06C71EC5A96B00CB3F39 /* personal_wayfindrUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49D06B91EC5A96B00CB3F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49D069D1EC5A96A00CB3F39 /* personal-wayfindr */;
+			targetProxy = C49D06B81EC5A96B00CB3F39 /* PBXContainerItemProxy */;
+		};
+		C49D06C41EC5A96B00CB3F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49D069D1EC5A96A00CB3F39 /* personal-wayfindr */;
+			targetProxy = C49D06C31EC5A96B00CB3F39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C49D06AA1EC5A96A00CB3F39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D06AB1EC5A96A00CB3F39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C49D06AF1EC5A96A00CB3F39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D06B01EC5A96A00CB3F39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49D06C91EC5A96B00CB3F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C49D06CA1EC5A96B00CB3F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C49D06CC1EC5A96B00CB3F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "personal-wayfindr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QA.personal-wayfindr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C49D06CD1EC5A96B00CB3F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "personal-wayfindr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QA.personal-wayfindr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C49D06CF1EC5A96B00CB3F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "personal-wayfindrTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QA.personal-wayfindrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/personal-wayfindr.app/personal-wayfindr";
+			};
+			name = Debug;
+		};
+		C49D06D01EC5A96B00CB3F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "personal-wayfindrTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QA.personal-wayfindrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/personal-wayfindr.app/personal-wayfindr";
+			};
+			name = Release;
+		};
+		C49D06D21EC5A96B00CB3F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "personal-wayfindrUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QA.personal-wayfindrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "personal-wayfindr";
+			};
+			name = Debug;
+		};
+		C49D06D31EC5A96B00CB3F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "personal-wayfindrUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QA.personal-wayfindrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "personal-wayfindr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49D06991EC5A96A00CB3F39 /* Build configuration list for PBXProject "personal-wayfindr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D06C91EC5A96B00CB3F39 /* Debug */,
+				C49D06CA1EC5A96B00CB3F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49D06CB1EC5A96B00CB3F39 /* Build configuration list for PBXNativeTarget "personal-wayfindr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D06CC1EC5A96B00CB3F39 /* Debug */,
+				C49D06CD1EC5A96B00CB3F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C49D06CE1EC5A96B00CB3F39 /* Build configuration list for PBXNativeTarget "personal-wayfindrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D06CF1EC5A96B00CB3F39 /* Debug */,
+				C49D06D01EC5A96B00CB3F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C49D06D11EC5A96B00CB3F39 /* Build configuration list for PBXNativeTarget "personal-wayfindrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D06D21EC5A96B00CB3F39 /* Debug */,
+				C49D06D31EC5A96B00CB3F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C49D06961EC5A96A00CB3F39 /* Project object */;
+}
