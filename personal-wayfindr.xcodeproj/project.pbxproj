@@ -78,6 +78,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4534E071ED430FA004DA2E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C4534E091ED4311C004DA2E1 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		C4534E0A1ED43127004DA2E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		C49D06951EC5A96A00CB3F39 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +122,9 @@
 		C49D06A01EC5A96A00CB3F39 /* personal-wayfindr */ = {
 			isa = PBXGroup;
 			children = (
+				C4534E0A1ED43127004DA2E1 /* Controller */,
+				C4534E091ED4311C004DA2E1 /* VIew */,
+				C4534E071ED430FA004DA2E1 /* Model */,
 				C49D06A41EC5A96A00CB3F39 /* AppDelegate.h */,
 				C49D06A51EC5A96A00CB3F39 /* AppDelegate.m */,
 				C49D06A71EC5A96A00CB3F39 /* ViewController.h */,
@@ -509,6 +533,7 @@
 				C49D06CD1EC5A96B00CB3F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C49D06CE1EC5A96B00CB3F39 /* Build configuration list for PBXNativeTarget "personal-wayfindrTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +542,7 @@
 				C49D06D01EC5A96B00CB3F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C49D06D11EC5A96B00CB3F39 /* Build configuration list for PBXNativeTarget "personal-wayfindrUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +551,7 @@
 				C49D06D31EC5A96B00CB3F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
