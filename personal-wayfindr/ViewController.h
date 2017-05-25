@@ -12,6 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *helloInteraction;
 @property (weak, nonatomic) IBOutlet UITextView *customTextfield;
+@property (weak, nonatomic) IBOutlet UIButton *switchButton;
 
 
 @end

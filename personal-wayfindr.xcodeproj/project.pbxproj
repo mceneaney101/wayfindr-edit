@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C431D2101ED6D61E001B2452 /* Screen Shot 2017-05-25 at 10.00.48.png in Resources */ = {isa = PBXBuildFile; fileRef = C431D20F1ED6D61E001B2452 /* Screen Shot 2017-05-25 at 10.00.48.png */; };
+		C431D2121ED6E0E5001B2452 /* Screen Shot 2017-05-25 at 10.51.58.png in Resources */ = {isa = PBXBuildFile; fileRef = C431D2111ED6E0E5001B2452 /* Screen Shot 2017-05-25 at 10.51.58.png */; };
 		C49D06A31EC5A96A00CB3F39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A21EC5A96A00CB3F39 /* main.m */; };
 		C49D06A61EC5A96A00CB3F39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A51EC5A96A00CB3F39 /* AppDelegate.m */; };
 		C49D06A91EC5A96A00CB3F39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A81EC5A96A00CB3F39 /* ViewController.m */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		C431D20F1ED6D61E001B2452 /* Screen Shot 2017-05-25 at 10.00.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-25 at 10.00.48.png"; path = "../../../../Desktop/Screen Shot 2017-05-25 at 10.00.48.png"; sourceTree = "<group>"; };
+		C431D2111ED6E0E5001B2452 /* Screen Shot 2017-05-25 at 10.51.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-25 at 10.51.58.png"; path = "../../../../Desktop/Screen Shot 2017-05-25 at 10.51.58.png"; sourceTree = "<group>"; };
 		C49D069E1EC5A96A00CB3F39 /* personal-wayfindr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "personal-wayfindr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49D06A21EC5A96A00CB3F39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C49D06A41EC5A96A00CB3F39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		C431D20E1ED6D567001B2452 /* ScreenShots */ = {
 			isa = PBXGroup;
 			children = (
+				C431D2111ED6E0E5001B2452 /* Screen Shot 2017-05-25 at 10.51.58.png */,
 				C431D20F1ED6D61E001B2452 /* Screen Shot 2017-05-25 at 10.00.48.png */,
 			);
 			name = ScreenShots;
@@ -292,6 +295,7 @@
 				C49D06B11EC5A96A00CB3F39 /* LaunchScreen.storyboard in Resources */,
 				C431D2101ED6D61E001B2452 /* Screen Shot 2017-05-25 at 10.00.48.png in Resources */,
 				C49D06AE1EC5A96A00CB3F39 /* Assets.xcassets in Resources */,
+				C431D2121ED6E0E5001B2452 /* Screen Shot 2017-05-25 at 10.51.58.png in Resources */,
 				C49D06AC1EC5A96A00CB3F39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,12 +18,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    /*
     // Creating the Hello label and assigning it the size of the frame it needs
     UILabel *hellolabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 50)];
     //Set the text property of the Hello label
     hellolabel.text = @"Hello World!";
     //Add the Hello label object to the view
     [self.view addSubview:hellolabel];
+    */
+    
+    //label interaction
+    self.helloInteraction.text = @"custom Text";
+    
+    //Button interaction
+    [self.switchButton setTitle:@"Switch Click" forState:UIControlStateNormal];
 }
 
 

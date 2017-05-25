@@ -49,6 +49,7 @@
                     <connections>
                         <outlet property="customTextfield" destination="foN-HE-2Qb" id="mLB-PF-dVz"/>
                         <outlet property="helloInteraction" destination="tBZ-cL-8Da" id="yxN-sq-qlJ"/>
+                        <outlet property="switchButton" destination="Bfj-oZ-Xv2" id="C0v-AF-sUX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
