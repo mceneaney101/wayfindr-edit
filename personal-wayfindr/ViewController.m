@@ -28,7 +28,8 @@
     */
     
     //label interaction
-    self.helloInteraction.text = @"custom Text";
+    self.helloInteraction.text = @"Button interaction";
+    //[self.view addSubview:_helloInteraction];
     
     //Button interaction
     [self.switchButton setTitle:@"Switch Click" forState:UIControlStateNormal];
@@ -40,5 +41,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+// actions for when the button is clicked
+- (IBAction)handleSwitchButton:(id)sender {
+    // assigning text value to customtextfield
+    //self.customTextfield.text = @"Button clicked";
+    self.customTextfield.text = self.helloInteraction.text;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [self.customTextfield resignFirstResponder];
+}
 
 @end
