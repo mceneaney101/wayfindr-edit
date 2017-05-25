@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C431D2101ED6D61E001B2452 /* Screen Shot 2017-05-25 at 10.00.48.png in Resources */ = {isa = PBXBuildFile; fileRef = C431D20F1ED6D61E001B2452 /* Screen Shot 2017-05-25 at 10.00.48.png */; };
-		C431D2121ED6E0E5001B2452 /* Screen Shot 2017-05-25 at 10.51.58.png in Resources */ = {isa = PBXBuildFile; fileRef = C431D2111ED6E0E5001B2452 /* Screen Shot 2017-05-25 at 10.51.58.png */; };
-		C431D2151ED6EEE1001B2452 /* Screen Shot 2017-05-25 at 11.49.10.png in Resources */ = {isa = PBXBuildFile; fileRef = C431D2131ED6EEE0001B2452 /* Screen Shot 2017-05-25 at 11.49.10.png */; };
-		C431D2161ED6EEE1001B2452 /* Screen Shot 2017-05-25 at 11.49.25.png in Resources */ = {isa = PBXBuildFile; fileRef = C431D2141ED6EEE0001B2452 /* Screen Shot 2017-05-25 at 11.49.25.png */; };
+		C431D21A1ED6F113001B2452 /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = C431D2191ED6F113001B2452 /* Screenshots */; };
 		C49D06A31EC5A96A00CB3F39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A21EC5A96A00CB3F39 /* main.m */; };
 		C49D06A61EC5A96A00CB3F39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A51EC5A96A00CB3F39 /* AppDelegate.m */; };
 		C49D06A91EC5A96A00CB3F39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A81EC5A96A00CB3F39 /* ViewController.m */; };
@@ -39,10 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C431D20F1ED6D61E001B2452 /* Screen Shot 2017-05-25 at 10.00.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-25 at 10.00.48.png"; path = "../../../../Desktop/Screen Shot 2017-05-25 at 10.00.48.png"; sourceTree = "<group>"; };
-		C431D2111ED6E0E5001B2452 /* Screen Shot 2017-05-25 at 10.51.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-25 at 10.51.58.png"; path = "../../../../Desktop/Screen Shot 2017-05-25 at 10.51.58.png"; sourceTree = "<group>"; };
-		C431D2131ED6EEE0001B2452 /* Screen Shot 2017-05-25 at 11.49.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-25 at 11.49.10.png"; path = "../../../../Desktop/Screen Shot 2017-05-25 at 11.49.10.png"; sourceTree = "<group>"; };
-		C431D2141ED6EEE0001B2452 /* Screen Shot 2017-05-25 at 11.49.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-25 at 11.49.25.png"; path = "../../../../Desktop/Screen Shot 2017-05-25 at 11.49.25.png"; sourceTree = "<group>"; };
+		C431D2191ED6F113001B2452 /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Screenshots; path = Assets.xcassets/Screenshots; sourceTree = "<group>"; };
 		C49D069E1EC5A96A00CB3F39 /* personal-wayfindr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "personal-wayfindr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49D06A21EC5A96A00CB3F39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C49D06A41EC5A96A00CB3F39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,20 +83,9 @@
 		C431D20D1ED6D51E001B2452 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C431D20E1ED6D567001B2452 /* ScreenShots */,
+				C431D2191ED6F113001B2452 /* Screenshots */,
 			);
 			name = Assets;
-			sourceTree = "<group>";
-		};
-		C431D20E1ED6D567001B2452 /* ScreenShots */ = {
-			isa = PBXGroup;
-			children = (
-				C431D2131ED6EEE0001B2452 /* Screen Shot 2017-05-25 at 11.49.10.png */,
-				C431D2141ED6EEE0001B2452 /* Screen Shot 2017-05-25 at 11.49.25.png */,
-				C431D2111ED6E0E5001B2452 /* Screen Shot 2017-05-25 at 10.51.58.png */,
-				C431D20F1ED6D61E001B2452 /* Screen Shot 2017-05-25 at 10.00.48.png */,
-			);
-			name = ScreenShots;
 			sourceTree = "<group>";
 		};
 		C4534E071ED430FA004DA2E1 /* Model */ = {
@@ -298,12 +281,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C431D2151ED6EEE1001B2452 /* Screen Shot 2017-05-25 at 11.49.10.png in Resources */,
+				C431D21A1ED6F113001B2452 /* Screenshots in Resources */,
 				C49D06B11EC5A96A00CB3F39 /* LaunchScreen.storyboard in Resources */,
-				C431D2161ED6EEE1001B2452 /* Screen Shot 2017-05-25 at 11.49.25.png in Resources */,
-				C431D2101ED6D61E001B2452 /* Screen Shot 2017-05-25 at 10.00.48.png in Resources */,
 				C49D06AE1EC5A96A00CB3F39 /* Assets.xcassets in Resources */,
-				C431D2121ED6E0E5001B2452 /* Screen Shot 2017-05-25 at 10.51.58.png in Resources */,
 				C49D06AC1EC5A96A00CB3F39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
