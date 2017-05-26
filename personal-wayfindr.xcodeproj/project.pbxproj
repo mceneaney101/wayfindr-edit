@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C431D21A1ED6F113001B2452 /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = C431D2191ED6F113001B2452 /* Screenshots */; };
+		C431D21E1ED71E5C001B2452 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D21D1ED71E5C001B2452 /* MapViewController.m */; };
+		C431D2221ED725BB001B2452 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D2211ED725BB001B2452 /* Location.m */; };
+		C431D2251ED72952001B2452 /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D2241ED72952001B2452 /* LocationDataController.m */; };
 		C49D06A31EC5A96A00CB3F39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A21EC5A96A00CB3F39 /* main.m */; };
 		C49D06A61EC5A96A00CB3F39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A51EC5A96A00CB3F39 /* AppDelegate.m */; };
 		C49D06A91EC5A96A00CB3F39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D06A81EC5A96A00CB3F39 /* ViewController.m */; };
@@ -37,6 +40,12 @@
 
 /* Begin PBXFileReference section */
 		C431D2191ED6F113001B2452 /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Screenshots; path = Assets.xcassets/Screenshots; sourceTree = "<group>"; };
+		C431D21D1ED71E5C001B2452 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		C431D21F1ED71EE7001B2452 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		C431D2201ED725BB001B2452 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		C431D2211ED725BB001B2452 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		C431D2231ED72952001B2452 /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataController.h; sourceTree = "<group>"; };
+		C431D2241ED72952001B2452 /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataController.m; sourceTree = "<group>"; };
 		C49D069E1EC5A96A00CB3F39 /* personal-wayfindr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "personal-wayfindr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49D06A21EC5A96A00CB3F39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C49D06A41EC5A96A00CB3F39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -132,6 +141,8 @@
 		C49D06A01EC5A96A00CB3F39 /* personal-wayfindr */ = {
 			isa = PBXGroup;
 			children = (
+				C431D21D1ED71E5C001B2452 /* MapViewController.m */,
+				C431D21F1ED71EE7001B2452 /* MapViewController.h */,
 				C431D20D1ED6D51E001B2452 /* Assets */,
 				C4534E0A1ED43127004DA2E1 /* Controller */,
 				C4534E091ED4311C004DA2E1 /* VIew */,
@@ -141,6 +152,10 @@
 				C49D06A71EC5A96A00CB3F39 /* ViewController.h */,
 				C49D06A81EC5A96A00CB3F39 /* ViewController.m */,
 				C49D06AA1EC5A96A00CB3F39 /* Main.storyboard */,
+				C431D2201ED725BB001B2452 /* Location.h */,
+				C431D2231ED72952001B2452 /* LocationDataController.h */,
+				C431D2241ED72952001B2452 /* LocationDataController.m */,
+				C431D2211ED725BB001B2452 /* Location.m */,
 				C49D06AD1EC5A96A00CB3F39 /* Assets.xcassets */,
 				C49D06AF1EC5A96A00CB3F39 /* LaunchScreen.storyboard */,
 				C49D06B21EC5A96A00CB3F39 /* Info.plist */,
@@ -310,8 +325,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C49D06A91EC5A96A00CB3F39 /* ViewController.m in Sources */,
+				C431D2221ED725BB001B2452 /* Location.m in Sources */,
+				C431D2251ED72952001B2452 /* LocationDataController.m in Sources */,
 				C49D06A61EC5A96A00CB3F39 /* AppDelegate.m in Sources */,
 				C49D06A31EC5A96A00CB3F39 /* main.m in Sources */,
+				C431D21E1ED71E5C001B2452 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
