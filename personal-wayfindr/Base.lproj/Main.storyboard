@@ -85,10 +85,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Nve-rl-rr0">
+                                <rect key="frame" x="30" y="261" width="312" height="197"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="128-Pj-TdG"/>
+                    <connections>
+                        <outlet property="mapLabel" destination="X3r-FQ-xCF" id="Gs3-Ut-6Cw"/>
+                        <outlet property="mapView" destination="Nve-rl-rr0" id="OgJ-sF-Kkk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4b0-KH-ffj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

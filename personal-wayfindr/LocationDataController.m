@@ -15,8 +15,8 @@
     Location *myLocation = [[Location alloc] init];
     myLocation.address = @"Paul McEneaney, 66 Banana way, London, E7 8GM";
     myLocation.photoFileName = @"coffeebeans.png";
-    myLocation.latitude = 37.781453;
-    myLocation.longitude = -122.417158;
+    myLocation.latitude = 51.508530;
+    myLocation.longitude = -0.076132;
     
     return myLocation;
 }

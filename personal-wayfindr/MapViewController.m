@@ -7,6 +7,8 @@
 //
 
 #import "MapViewController.h"
+#import "Location.h"
+#import "LocationDataController.h"
 
 @interface MapViewController ()
 
@@ -18,6 +20,25 @@
     [super viewDidLoad];
 }
 
+//generates on the view
+- (void)viewDidAppear:(BOOL)animated
+{
+    //creating Location model to use
+    LocationDataController *model = [[LocationDataController alloc] init];
+    Location *poi = [model getPointOfInterest];
+ 
+    
+    //creating variables for map coodinates
+    CLLocationCoordinate2D poiCoodinates;
+    poiCoodinates.latitude = poi.latitude;
+    poiCoodinates.longitude= poi.longitude;
+    
+    //Using map to locate a region based on coordinates
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(poiCoodinates, 750, 750);
+    
+    [self.mapView setRegion:viewRegion animated:YES];
+    self.mapLabel.text = @"Tower of London";
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
